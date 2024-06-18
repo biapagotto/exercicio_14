@@ -1,0 +1,73 @@
+body {
+    font-family: "Fauna One", serif;
+    color: #fff;
+    background-color: #200302;
+}
+
+.navbar {
+    background-color: #3d0806;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #3d0806;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.nav-servicos .nav-link.active:hover,
+i {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #ffc107;
+}
+
+.section-title,
+.navbar-brand:hover  {
+    font-family: Pacifico, cursive;
+    color: #ffc107;
+}
+
+.text-colored {
+    color: #ffc107;
+}
+
+.nav-servicos .nav-link.active,
+#fale-conosco button {
+    background-color: #ffc107;
+    color: #200302;
+}
+
+.nav-servicos .nav-link:hover {
+    color: #f1f1f1;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+#cabecalho .nav .nav-link.btn {
+    background-color: #ffc107;
+    color: #200302;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 5px;
+}
+
+#cabecalho .nav .nav-link.btn:hover {
+    background-color: #e0a800;
+    color: #200302;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
